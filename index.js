@@ -52,4 +52,4 @@ function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
     return deg * (Math.PI/180)
   }
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);
